@@ -49,6 +49,8 @@ class OpenAIService {
     }
   }
 
+
+
   Future<String> chatGPTAPI(String prompt) async {
     messages.add({
       'role': 'user',
@@ -83,6 +85,8 @@ class OpenAIService {
       return e.toString();
     }
   }
+
+
 
   Future<String> dallEAPI(String prompt) async {
     messages.add({

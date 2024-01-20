@@ -11,7 +11,7 @@
         </intent>
     </queries>
    <application
-        android:label="allen"
+        android:label="My AI"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

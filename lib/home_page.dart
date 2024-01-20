@@ -15,6 +15,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
   final speechToText = SpeechToText();
   final flutterTts = FlutterTts();
   String lastWords = '';
@@ -124,9 +125,7 @@ class _HomePageState extends State<HomePage> {
               title: Text('Contact Us'),
               leading: Icon(Icons.mail), // Add an icon
               onTap: () {
-                // Handle the 'Contact Us' item tap
-                Navigator.pop(context); // Close the drawer
-                // Perform additional actions if needed
+                _showContactDialog();
               },
             ),
             ListTile(
@@ -227,7 +226,7 @@ class _HomePageState extends State<HomePage> {
                     padding: const EdgeInsets.symmetric(vertical: 10.0),
                     child: Text(
                       generatedContent == null
-                          ? 'Good Morning, what task can I do for you?'
+                          ? 'Hi, Friend!, what task can I do for you?'
                           : generatedContent!,
                       style: TextStyle(
                         fontFamily: 'Cera Pro',
@@ -255,7 +254,7 @@ class _HomePageState extends State<HomePage> {
                   alignment: Alignment.centerLeft,
                   margin: const EdgeInsets.only(top: 10, left: 22),
                   child: const Text(
-                    'Here are a few features',
+                    'Here are few features',
                     style: TextStyle(
                       color: Pallete.mainFontColor,
                       fontSize: 20,
@@ -341,10 +340,30 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('About'),
+          title: Text('About',textAlign: TextAlign.center,),
           content: Text('I am Smita Patel studying B.Tech in Computer'
               ' Science in Indian Institute of Information Technology. I build apps using  flutter, dart. '
-              'I am doing my best to upgrade my skills by building new projects',textAlign: TextAlign.center,),
+              'I am doing my best to upgrade my skills by building new projects.',textAlign: TextAlign.center,),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context); // Close the dialog
+              },
+              child: Text('OK'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showContactDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Contact Details',textAlign: TextAlign.center,),
+          content: Text('Phone no. : 9580632505.\nE-mail: miss.smitapatel04@gmail.com',textAlign: TextAlign.center,),
           actions: [
             TextButton(
               onPressed: () {
