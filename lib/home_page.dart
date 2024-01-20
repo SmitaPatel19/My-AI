@@ -79,7 +79,11 @@ class _HomePageState extends State<HomePage> {
 
       appBar: AppBar(
         title: BounceInDown(
-          child: const Text('My AI'),
+          child: const Text('My AI',style: TextStyle(
+            fontFamily: 'Cera Pro',
+            color: Pallete.mainFontColor,
+            fontSize: 28,
+          ),),
         ),
         leading: Builder(
           builder: (BuildContext context) {
