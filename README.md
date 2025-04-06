@@ -18,6 +18,27 @@ This project helped me **learn API integration**, design an **attractive user in
 
 ---
 
+## ⚙ Core Functionality  
+
+### 🎙 Voice Recognition  
+- Real-time speech-to-text conversion  
+- Sound level visualization  
+- Continuous listening mode (with 3-second pause threshold)  
+- Automatic restart after silence  
+
+### 🤖 AI Interaction  
+- ChatGPT text generation  
+- DALL·E image generation  
+- Automatic detection of image-generation prompts  
+- Text-to-speech responses  
+
+### 💬 Conversation Management  
+- Conversation history tracking (last 10 interactions)  
+- Clear history functionality  
+- Role-based message differentiation (user/assistant)  
+
+---
+
 ## 🛠 Tech Stack  
 
 **Flutter & Dart** – For building a cross-platform mobile app.  
@@ -44,56 +65,56 @@ Before running the app, ensure you have:
 git clone https://github.com/SmitaPatel19/My-AI.git
 ```  
 
-2️. Navigate to the project folder:  
+2️. Navigate to the project folder:
 ```bash
 cd My-AI
 ```  
 
-3️. Install dependencies:  
+3️. Install dependencies:
 ```bash
 flutter pub get
 ```  
 
-4️. Set up your **API keys** for ChatGPT & DALL·E in the app’s configuration.  
+4️. Set up your **API keys** for ChatGPT & DALL·E in the app’s configuration.
 
 ---
 
-## ▶ Running the App  
+## ▶ Running the App
 
-Run the app on an emulator or physical device:  
+Run the app on an emulator or physical device:
 ```bash
 flutter run
 ```  
 
 ---
 
-## How to Use  
+## How to Use
 
 🎙 **Speak Commands** – Ask the assistant anything, and it responds.  
 🖼 **Generate AI Images** – Describe an image, and DALL·E creates it for you.  
-💡 **Enjoy Smart AI Assistance** – Get instant responses to your queries.  
+💡 **Enjoy Smart AI Assistance** – Get instant responses to your queries.
 
 ---
 
-## 🌱 Learning & Development  
+## 🌱 Learning & Development
 
-This project helped me:  
+This project helped me:
 1. Learn **API integration** in Flutter.
 2. Understand **AI-powered interactions**.
-3. Design an **intuitive and engaging UI**.  
+3. Design an **intuitive and engaging UI**.
 
 ---
 
-## 🤝 Contributing  
+## 🤝 Contributing
 
-Want to contribute? Fork the repo, make changes, and submit a pull request! Let’s make AI even smarter together. 😊  
+Want to contribute? Fork the repo, make changes, and submit a pull request! Let’s make AI even smarter together. 😊
 
 ---
 
-## 🎉 Acknowledgements  
+## 🎉 Acknowledgements
 
-Big thanks to **Flutter, OpenAI (ChatGPT & DALL·E), and the AI developer community** for making this project possible!  
+Big thanks to **Flutter, OpenAI (ChatGPT & DALL·E), and the AI developer community** for making this project possible!
 
-If you like this project, don’t forget to **⭐ Star** the repo! 😊  
+If you like this project, don’t forget to **⭐ Star** the repo! 😊
 
 ---

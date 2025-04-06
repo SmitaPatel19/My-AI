@@ -1,4 +1,4 @@
-import 'package:allen/pallete.dart';
+import 'package:allen/widgets/pallete.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
