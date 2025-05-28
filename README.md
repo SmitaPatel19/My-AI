@@ -55,7 +55,7 @@ This project helped me **learn API integration**, design an **attractive user in
 Before running the app, ensure you have:  
 
 - **Flutter** installed ([Install Flutter](https://flutter.dev/docs/get-started/install))  
-- An API key for **ChatGPT & DALL·E** ([Get OpenAI API Key](https://platform.openai.com/))  
+- An API key for **ChatGPT & DALL·E** ([Get OpenAI API Key](https://platform.openai.com/)) (like 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) 
 - **Android Studio** for running the emulator or a physical device  
 
 ### Installation  
